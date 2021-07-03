@@ -76,8 +76,8 @@ Original iris+ drone is shipped with RC radio and 3DR radio. An operator can con
 - Manual Control: RC radio shipped with original 3DR iris+ drone
 ```
 <p align="center">
-<img src="img/lan_dongle.png" height="300">
+<img src="img/lan_dongle.png" height="300"> <img src="img/taranis_x7.png" height="300">
 </p>
 <p align="center">
-<img src="img/taranis_x7.png" height="300">
+Iptime Wireless LAN Card (left) and rc radio transmitter Tranis X7 (right)
 </p>
