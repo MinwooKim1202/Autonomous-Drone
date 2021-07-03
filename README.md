@@ -22,7 +22,7 @@ This Drone platform is modified from 3DR iris+ drone, and the mechanical system 
 ```
 
 <p align="center">
-  <img src="img/q250.jpg" height="300">
+  <img src="img/q250.png" height="300">
 </p>
 
 #### b) AUTOPILOT SYSTEM
