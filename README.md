@@ -81,3 +81,10 @@ Original iris+ drone is shipped with RC radio and 3DR radio. An operator can con
 <p align="center">
 Iptime Wireless LAN Card (left) and rc radio transmitter Tranis X7 (right)
 </p>
+
+#### g) FINAL PRODUCT
+The following pictures show bottom view of the modified 3DR iris+ drone. In practical, a case covers on the companion computer to protect it from damage in case of crash, and the USB wifi adapter and USB to Serial adapter are fixed on each side of the companion computer.
+
+<p align="center">
+<img src="20210625_055456.png" height="300"> <img src="20210625_055512.png" height="300"> <img src="20210625_055525.png" height="300">
+</p>
