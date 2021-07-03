@@ -75,3 +75,9 @@ Original iris+ drone is shipped with RC radio and 3DR radio. An operator can con
 - Communication with Other Drones: Wifi via ground-based wireless router
 - Manual Control: RC radio shipped with original 3DR iris+ drone
 ```
+<p align="center">
+<img src="img/lan_dongle.png" height="300">
+</p>
+<p align="center">
+<img src="img/taranis_x7.png" height="300">
+</p>
