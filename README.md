@@ -9,6 +9,7 @@ FC로 Pixhawk4 mini를 사용하고 on board computer로 jetson nano, intel real
 #### a) MECHANICAL SYSTEM
 Q250 프레임을 기반으로 제작하였다
 mechanical system:
+
 ```
 - UAV Type: QuadCopter
 - Frame Size: Q250
@@ -44,7 +45,7 @@ Pixhawk4 mini를 사용하였고 펌웨어는 px4를 사용하였다
 </p>
 
 #### d) ON BOARD COMPUTING SYSTEM (COMPANION COMPUTER)
-Perception, Localization, Computer vision 등에 높은 컴퓨팅 파워가 필요하기 떄문에 Nvidia Jetson nano를 OB BOARD COMPUTER로 사용하였다
+Perception, Localization, Computer vision 등에 높은 컴퓨팅 파워가 필요하기 떄문에 Nvidia Jetson nano를 ON BOARD COMPUTER로 사용하였다
 ```
 - Single Board Computer: Nvida Jetson nano board
 - Processor: Quad-core ARM® Cortex-A57 @ 1.43 GHz
