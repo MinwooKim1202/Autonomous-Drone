@@ -111,4 +111,4 @@ ROS Node 구조를 나타낸 그래프
 
 ### 2) Autonomous landing
 
-<iframe width="1280" height="731" src="https://www.youtube.com/embed/NvDqTsqxPDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Mission _ Into the I-LAND](http://img.youtube.com/vi/NvDqTsqxPDs/0.jpg)](https://www.youtube.com/watch?v=NvDqTsqxPDs?t=0s) 
