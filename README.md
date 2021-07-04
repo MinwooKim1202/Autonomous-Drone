@@ -87,7 +87,7 @@ Iptime Wireless LAN Card (left) and rc radio transmitter Tranis X7 (right)
 <img src="img/20210625_055456.jpg" height="300"> <img src="img/20210625_055512.jpg" height="300"> <img src="img/20210625_055525.jpg" height="300">
 </p>
 <p align="center">
-<img src="img/fly.gif" height="300">
+<img src="img/fly.gif" height="800">
 </p>
 
 ## 2. SOFTWARE CONFIGURATION
