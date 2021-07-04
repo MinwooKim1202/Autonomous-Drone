@@ -22,7 +22,7 @@ This Drone platform is modified from 3DR iris+ drone, and the mechanical system 
 ```
 
 <p align="center">
-  <img src="img/q250.png" height="300">
+  <img src="img/q250.jpg" height="300">
 </p>
 
 #### b) AUTOPILOT SYSTEM
@@ -43,7 +43,7 @@ This project uses its Realsense T265.
 ```
 
 <p align="center">
-<img src="img/t265.png" height="300">
+<img src="img/t265.jpg" height="300">
 </p>
 
 #### d) ON BOARD COMPUTING SYSTEM (COMPANION COMPUTER)
@@ -58,14 +58,14 @@ This project need a high performance companion computer to do mission planning, 
 ```
 
 <p align="center">
-  <img src="img/jetson_nano.png" height="300">
+  <img src="img/jetson_nano.jpg" height="300">
 </p>
 
 #### e) STEREO VISION CAMERA AND SONAR SYSTEM
 Original iris+ drone does not have any vision system. I designed and assembled the stereo vision camare to equipe it on each drone. Please refer to my other repository [Stereo_Vision_Camera](https://github.com/FlyingCatAlex/Stereo_Vision_Camera) for more detail. With stereo vision camera, drones are able to detect and locate objects in 3D frame. A [Maxbotix I2CXL-MaxSonar-EZ4 High Performance Sonar](https://www.maxbotix.com) is added to each iris+ drone for obstacle detection. The sonar sensor is installed in the center of the stereo vision camera. The solar sensor works with stereo vison camarea to locate objects accurately. 
 
 <p align="center">
-<img src="img/pi_cam.png" height="300">
+<img src="img/pi_cam.jpg" height="300">
 </p>
 
 #### f) COMMUNICATION SYSTEM
@@ -76,7 +76,7 @@ Original iris+ drone is shipped with RC radio and 3DR radio. An operator can con
 - Manual Control: RC radio shipped with original 3DR iris+ drone
 ```
 <p align="center">
-<img src="img/lan_dongle.png" height="300"> <img src="img/taranis_x7.png" height="300">
+<img src="img/lan_card.jpg" height="300"> <img src="img/taranis_x7.jpg" height="300">
 </p>
 <p align="center">
 Iptime Wireless LAN Card (left) and rc radio transmitter Tranis X7 (right)
@@ -86,5 +86,5 @@ Iptime Wireless LAN Card (left) and rc radio transmitter Tranis X7 (right)
 The following pictures show bottom view of the modified 3DR iris+ drone. In practical, a case covers on the companion computer to protect it from damage in case of crash, and the USB wifi adapter and USB to Serial adapter are fixed on each side of the companion computer.
 
 <p align="center">
-<img src="img/20210625_055456.png" height="300"> <img src="img/20210625_055512.png" height="300"> <img src="img/20210625_055525.png" height="300">
+<img src="img/20210625_055456.jpg" height="300"> <img src="img/20210625_055512.jpg" height="300"> <img src="img/20210625_055525.jpg" height="300">
 </p>
