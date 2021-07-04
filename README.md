@@ -43,7 +43,7 @@ This project uses its Realsense T265.
 ```
 
 <p align="center">
-<img src="img/t265.jpg" height="300">
+<img src="img/t265.png" height="300">
 </p>
 
 #### d) ON BOARD COMPUTING SYSTEM (COMPANION COMPUTER)
