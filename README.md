@@ -87,7 +87,7 @@ Iptime Wireless LAN Card (left) and rc radio transmitter Tranis X7 (right)
 <img src="img/20210625_055456.jpg" height="300"> <img src="img/20210625_055512.jpg" height="300"> <img src="img/20210625_055525.jpg" height="300">
 </p>
 <p align="center">
-<img src="img/fly.gif" height="800">
+<img src="img/fly.gif" height="400">
 </p>
 
 ## 2. SOFTWARE CONFIGURATION
@@ -108,3 +108,7 @@ ROS Node 구조를 나타낸 그래프
 <p align="center">
 <img src="img/t265.gif" height="800">
 </p>
+
+### 2) Autonomous landing
+
+<iframe width="1280" height="731" src="https://www.youtube.com/embed/NvDqTsqxPDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
