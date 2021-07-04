@@ -86,3 +86,25 @@ Iptime Wireless LAN Card (left) and rc radio transmitter Tranis X7 (right)
 <p align="center">
 <img src="img/20210625_055456.jpg" height="300"> <img src="img/20210625_055512.jpg" height="300"> <img src="img/20210625_055525.jpg" height="300">
 </p>
+<p align="center">
+<img src="img/flt.gif" height="300">
+</p>
+
+## 2. SOFTWARE CONFIGURATION
+### 1) CONFIGURE OS ENVIRONMENT
+```
+OS : Ubuntu 18.04
+ROS : Melodic
+```
+
+### 2) SOFTWARE ARCHITECHTURE
+ROS Node 구조를 나타낸 그래프
+<p align="center">
+<img src="img/rosgraph.png" height="800">
+</p>
+
+### 3) MISSIONS
+### 1) Indoor hovering
+<p align="center">
+<img src="img/t265.gif" height="800">
+</p>
