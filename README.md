@@ -23,7 +23,7 @@ mechanical system:
   <img src="img/q250.jpg" height="300">
 </p>
 
-#### b) AUTOPILOT SYSTEM
+#### b) Flight controller
 Pixhawk4 mini를 사용하였고 펌웨어는 px4를 사용하였다
 ```
 - Autopilot: Pixhawk 4 mini
@@ -59,7 +59,7 @@ Perception, Localization, Computer vision 등에 높은 컴퓨팅 파워가 필�
   <img src="img/jetson_nano.jpg" height="300">
 </p>
 
-#### e) STEREO VISION CAMERA AND SONAR SYSTEM
+#### e) VISION CAMERA 
 Opencv를 통한 Computer vision 구현을 위해 Rasberry pi fish eye lens camera를 사용하였다
 
 <p align="center">
