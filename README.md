@@ -29,7 +29,7 @@ This Drone platform is modified from 3DR iris+ drone, and the mechanical system 
 The autopilot system shipped with iris+ drone is [Pixhawk](Hardware_Configuration/3DR_IRIS/README_PICS/Pixhawk.jpg) with firmware ArduCopter v3.2. I upgraded the firmeare to ArduCopter v3.3.3. All the software packages are tested with ArduCopter v3.3.3, and are guaranteed to work well. Please refer to [pixhawk official website](https://pixhawk.org) for details. The firmware is from ArduPilot open source project. Please refer to [ArduPilot official website](http://ardupilot.org/) for the introduction on this project and the instruction on how to flash firmeware and set parameters.
 ```
 - Autopilot: Pixhawk 4 mini
-- Firmware: px4
+- Firmware: px4 v2.0
 ```
 
 <p align="center">
@@ -50,10 +50,10 @@ This project uses its Realsense T265.
 This project need a high performance companion computer to do mission planning, computer vision task, and other computing-intensive tasks. However, the original iris+ done does not have a companion computer. After research, I found that the intel UP board is the best companion computer for this project. A [power module](Hardware_Configuration/3DR_IRIS/README_PICS/Power_module_5V_3A.jpg) is needed to power the companion computer.
 ```
 - Single Board Computer: Nvida Jetson nano board
-- Processor: Intel® Atom™ x5-Z8350 Processor (2M Cache, up to 1.92 GHz),
-             Quad Core CPU with 64 bit architecture
-- Memory: 4GB DDR3L-1600
-- Storage Capacity: 32 GB eMMC
+- Processor: Quad-core ARM® Cortex-A57 @ 1.43 GHz
+- Memory: 2 GB 64-bit LPDDR4 25.6 GB/s
+- GPU : 128-core Maxwell
+- Storage Capacity: microSD
 - OS: JetPack 4.5.1
 ```
 
@@ -71,9 +71,9 @@ Original iris+ drone does not have any vision system. I designed and assembled t
 #### f) COMMUNICATION SYSTEM
 Original iris+ drone is shipped with RC radio and 3DR radio. An operator can control iris+ maually with RC radio, or control it through ground station installed on computer with 3DR radio. In this project, the mission planning tasks are done by on board computer (companion computer), so there is no need to use a ground station. I removed the 3DR radio and reserve the telemetry port for on board computer. The port TELEM 2 on pixhawk is connected to companion computer via [USB to serial adapter](Hardware_Configuration/3DR_IRIS/README_PICS/USB_to_Serial_Adapter.jpg), and the port TELEM 1 on pixhawk is connected to RC radio receiver. Please refer to [this guide](http://ardupilot.org/dev/docs/odroid-via-mavlink.html) to hook up pixhawk with companion computer. The communication between drones are achieved via WiFi. The communication between drones is achieved by wifi via wireless router on ground. A [USB WiFi adapter](Hardware_Configuration/3DR_IRIS/README_PICS/Panda_Wireless_USB_WiFi_Adapter.jpg) is plugged to the usb port of companion computer to send and receive messages.
 ```
-- Communication with Companion Computer: USB to serial port adapter
-- Communication with Other Drones: Wifi via ground-based wireless router
-- Manual Control: RC radio shipped with original 3DR iris+ drone
+- Communication with Companion Computer: Telem1 to serial pin
+- Communication with pc : Wifi
+- Manual Control: RC radio 
 ```
 <p align="center">
 <img src="img/lan_card.jpg" height="300"> <img src="img/taranis_x7.jpg" height="300">
